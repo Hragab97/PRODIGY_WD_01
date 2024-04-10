@@ -1,0 +1,217 @@
+/* SMALL SCREEN STYLES */
+
+
+
+@media only screen and (max-width: 600px) {
+
+.contact {
+    padding: 10px;
+}
+
+
+    .products {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .services {
+        padding: 10px;
+    }
+
+    .about {
+        padding: 10px;
+    }
+
+.navbar {
+    width: 100%;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: white;
+}
+
+.logo .upperclass {
+    font-size: 50px;
+    color: rgb(0, 229, 255);
+    font-weight: 1000;
+}
+
+    .header-text img {
+        width: 100%;
+        position: relative;
+        margin-top: 0;
+    }
+
+    .header-text {
+        padding: 10px;
+        padding-top: 30%;
+        font-size: 16px;
+    }
+
+    .header-text h1{
+        font-size: 25px;
+        
+    }
+
+    .header-text .text{
+        width: 100%;
+    }
+
+    .row {
+        display: block;
+
+    }
+    
+
+    .about-col-1,.about-col-2  {
+        flex-basis: 100%;
+    }
+
+    .about-col-1 {
+        margin-bottom: 30px;
+    }
+
+    .about-col-2 {
+        font-size: 14px;
+    }
+
+
+    .tab-links {
+        font-size: 14px;
+    }
+    
+    .fa-xmark,.fa-bars {
+        display: block;
+        font-size: 25px;
+    }
+
+    .navbar ul {
+       background-color: black; 
+       position: fixed;
+       top: 0;
+       right: -200px;
+       width: 200px;
+       height: 100vh;
+       padding-top: 50px;
+       z-index: 2;
+       transition: 0.5s ease;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 25px;
+    }
+
+    .navbar ul .fa-xmark {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+    .sub-title {
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: black;
+    }
+    
+    .sub-title span {
+        font-size: 40px;
+        color: rgb(35, 172, 187);
+        font-weight: 1000;
+    }
+
+    .product {
+        width: 150%;
+    }
+
+    .layer h3, p{
+       display: none;
+    }
+
+    .main-subtitle {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 600;
+        color: black;
+        margin-bottom: 20px;
+    }
+    
+    .main-subtitle span {
+        font-size: 40px;
+        color: rgb(35, 172, 187);
+        font-weight: 1000;
+    }
+
+    .contact-left, .contact-right {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .contact-left .sub-title {
+        margin-left: 85px;
+        text-align: left;
+    }
+
+    .contact {
+        text-align: left;
+    }
+
+    .contact p {
+        display: block;
+    }
+
+    footer p {
+        display: block;
+    }
+
+    .tab-titles p {
+        display: block;
+    }
+
+
+}
+
+/* TABLET SCREEN STYLES */
+
+
+@media only screen and (max-width: 768px) {
+
+    
+.services-list {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 2fr));
+    grid-gap: 20px;
+    margin-top: 50px;
+    color: white;
+}
+
+.services-list div h2 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.about-col-1  {
+    flex-basis: 70%;
+    overflow: hidden;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.contact {
+    padding: 20px;
+}
+
+}

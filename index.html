@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFinity</title>
+    <script src="https://kit.fontawesome.com/059351e194.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="swiper.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <!--01 HOME SECTION-->
+    <div class="header" id="home">
+        <div class="container">
+            <div class="navbar">
+                <span class="logo"><span class="upperclass">T</span>ech<span class="upperclass">F</span>inity</span>
+                <ul id="sidemenu">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#products">PRODUCTS <i class="fa-solid fa-circle-chevron-down"></i></a>
+                        <ul class="dropdown">
+                            <li><a href="#">VR GOGGLES</a></li>
+                            <li><a href="#">TABLETS</a></li>
+                            <li><a href="#">LAPTOPS</a></li>
+                            <li><a href="#">SMARTPHONES</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </div>
+            <div class="header-text">
+                <div class="text">
+                    <h1><span>W</span>e <span>B</span>ring</h1>
+                    <h1><span>T</span>he <span>F</span>uture <span>T</span>o <span>Y</span>ou</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est laudantium dicta, commodi quos vitae
+                        sint culpa doloribus delectus sunt voluptas.</p>
+                        <a href="#products" class="btn">EXPLORE</a>
+                </div>
+                <img src="images/home/pngwing.com.png" alt="man wearing VR">
+           
+
+            </div>
+        </div>
+    </div>
+    <!--02 ABOUT SECTION-->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about/woman-wearing-virtual-reality-simulator.jpg" alt="woman wearing VR">
+                    <div class="layer">
+                        <h3>Explore More</h3>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"><span>A</span>bout <span>U</span>s</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae hic rem, expedita culpa qui
+                        inventore dolores sed maxime sit sunt earum recusandae voluptatem officia, corrupti provident
+                        libero! Hic ex aliquid sint maxime! Id non repudiandae debitis maiores ipsam nulla explicabo
+                        amet et, similique quos facilis porro tempore! Dolores doloribus enim quaerat, magnam maiores
+                        cupiditate rem quos placeat facilis deleniti mollitia expedita deserunt consequatur. Vero ea
+                        voluptate, aliquid illo aut necessitatibus.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('work')">Work</p>
+                        <p class="tab-links" onclick="opentab('offers')">Offers</p>
+                        <p class="tab-links" onclick="opentab('events')">Events</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="work">
+                        <ul>
+                            <li><span>Marketing</span><br>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <li><span>Development</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </li>
+                            <li><span>Planning</span><br>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="offers">
+                        <ul>
+                            <li><span>Weekend Splash</span><br>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <li><span>Summer drops</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </li>
+                            <li><span>New Year's rockets</span><br>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="events">
+                        <ul>
+                            <li><span>Tech Summit</span><br>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing.</li>
+                            <li><span>Conferences</span><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            </li>
+                            <li><span>World Tour</span><br>Lorem ipsum dolor sit amet consectetur.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--03 SERVICES SECTION-->
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="main-subtitle"><span>O</span>ur <span>S</span>ervices</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-vr-cardboard"></i>
+                    <h2>VR Experiance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam eligendi aperiam
+                        laboriosam iure inventore eius incidunt velit nam quisquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-meta"></i>
+                    <h2>Meta Experiance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam eligendi aperiam
+                        laboriosam iure inventore eius incidunt velit nam quisquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-unity"></i>
+                    <h2>360 Experiance</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere quibusdam eligendi aperiam
+                        laboriosam iure inventore eius incidunt velit nam quisquam?</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--04 PRODUCTS SECTION-->
+    <div class="products" id="products">
+        <div class="container swiper">
+            <h1 class="main-subtitle"><span>O</span>ur <span>P</span>roducts</h1>
+            <div class="slide-content">
+                <div class="product-list swiper-wrapper">
+                    <div class="product swiper-slide">
+                        <img src="images/products/digital-device-laptop-mockup-concept.jpg" alt="laptop">
+                        <div class="layer">
+                            <h3>Laptops</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, officiis reprehenderit
+                                adipisci aliquid expedita saepe?</p>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="product swiper-slide">
+                        <img src="images/products/side-view-smiley-woman-with-virtual-reality-headset.jpg" alt="VR GOGGLES">
+                        <div class="layer">
+                            <h3>VR Goggles</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, officiis reprehenderit
+                                adipisci aliquid expedita saepe?</p>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="product swiper-slide">
+                        <img src="images/products/smartphone-child-hands-with-incoming-mother-call-screen.jpg"
+                            alt="smartphone">
+                        <div class="layer">
+                            <h3>Smartphones</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, officiis reprehenderit
+                                adipisci aliquid expedita saepe?</p>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                    <div class="product swiper-slide">
+                        <img src="images/products/high-angle-hand-drawing-ipad.jpg"
+                            alt="smartphone">
+                        <div class="layer">
+                            <h3>Tablets</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, officiis reprehenderit
+                                adipisci aliquid expedita saepe?</p>
+                            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-pagination"></div>
+            <a href="#" class="btn">See more</a>
+            
+        </div>
+    </div>
+    <!--05 CONTACT US SECTION-->
+    <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"><span>C</span>ontact <span>U</span>s</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> contact@techfinity.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 6390-14-4555</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="images/contact/techfinity.pdf" download class="btn btn2">Download PDF</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <footer><div class="copyright">
+        <span class="logo footer"><span class="upperclass">T</span>ech<span class="upperclass">F</span>inity</span>
+
+        <p>Copyright @techfinity. All rights reserved.</p>
+        <div class="social-icons">
+            
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<script src="swiper-bundle.min.js"></script>
+<script src="swiper.js"></script>
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
